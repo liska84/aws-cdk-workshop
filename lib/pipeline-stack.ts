@@ -23,7 +23,7 @@ export class WorkshopPipelineStack extends cdk.Stack {
                 commands: [
                     'npm ci',
                     'npm run build',
-                    'npx cdk synth', // cdk synth ?
+                    'npx cdk synth', // why not a cdk synth ?
                 ]
             })
         });
